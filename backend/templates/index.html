@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="container">
+  <h1 id="test">Buongiorno ragazzi!</h1>
+  <p>{{msg}}</p>
+  <button type="button" class="btn-success" onclick="apiTest()">TEST API</button>
+  <script src="{{url_for('static',filename='js/index.js')}}"></script>
+</div>
+{% endblock %}
