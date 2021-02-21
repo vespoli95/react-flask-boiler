@@ -5,6 +5,7 @@ import Login from '../Login/Login';
 import Dashboard from '../Dashboard/Dashboard';
 import Preferences from '../Preferences/Preferences';
 import useToken from './useToken';
+import Logout from '../Logout/Logout';
 
 function App() {
   
@@ -27,6 +28,7 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
+      <Logout token={token} setToken={setToken} />
     </div>
   );
 }
