@@ -1,5 +1,3 @@
-# YUL-CODE
-
 # Back-end (python, flask)
 
 1. Install pip: https://pip.pypa.io/en/stable/installing/
